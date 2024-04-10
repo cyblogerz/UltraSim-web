@@ -7,7 +7,7 @@ import img2 from "../assets/images/img2.jpeg"
 import { CloseButton } from "@/components/close-button"
 
 
-export function Dashboard() {
+export function Login() {
   return (
     <div className="w-full lg:grid lg:min-h-[600px] lg:grid-cols-2 xl:min-h-[800px]">
         <div className="absolute top-2 left-2">
