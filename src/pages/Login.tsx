@@ -7,11 +7,13 @@ import img2 from "../assets/images/img2.jpeg"
 import { CloseButton } from "@/components/close-button"
 
 
+
+
 export function Login() {
   return (
     <div className="w-full lg:grid lg:min-h-[600px] lg:grid-cols-2 xl:min-h-[800px]">
         <div className="absolute top-2 left-2">
-            <CloseButton />
+            <CloseButton/>
         </div>
       <div className="flex items-center justify-center py-12">
         <div className="mx-auto grid w-[350px] gap-6">
