@@ -10,15 +10,23 @@ import {
 
 import { ThemeProvider } from '@/components/theme-provider.tsx';
 import { Login } from './pages/Login.tsx';
+
+
 import Landing from './routes/landing.tsx';
+import Root from './routes/root.tsx';
 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Landing/>,
-    
+    element: <Root/>,
+    children: [
+      {
+        path: "home",
+        element: <Landing/>
+      }
+    ]
   },
   {
     path: "/login",

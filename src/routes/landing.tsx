@@ -15,7 +15,7 @@ import { Link } from "react-router-dom"
 
 const Landing = () => {
   return (
-    <div>
+    <div >
     <PageHeader>
     <Announcement />
     <PageHeaderHeading>UltraSim: Fetal Ultrasound Education Companion</PageHeaderHeading>
